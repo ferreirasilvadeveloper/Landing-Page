@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home"><img src="assets/img/html-css-not-optmize.svg" alt="" width="80" height="50"></a>
+
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">O que é?</a></li>
+                    <li><a href="#grid-one">História</a></li>
+                    <li><a href="#gallery">Imagens</a></li>
+                    <li><a href="#grid-two">Vantagens</a></li>
+                    <li><a href="#pricing">Tabelas</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>HTML e CSS</h2>
+                <p>Esta página foi desenvolvida com objetivo de demonstrar na prática meu aprendizado no desenvolvimento
+                    de páginas Web. Desde já agradeço por conferir meu trabalho.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/html-css-not-optmize.svg" alt="3 Pessoas segurando logo de HTML, CSS e JS cada">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>O que é HTML?</h2>
+            <p>O HTML (HyperText Markup Language) é a linguagem base para se desenvolver qualquer site. É uma linguagem
+                baseada em marcação, onde
+                marcamos os elementos para definir quais informações a página vai exibir.</p>
+            <h2>O que é CSS?</h2>
+            <p>O CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as
+                páginas HTML, ou seja, definir a aparência das páginas, para deixá-las visualmente mais bonitas e
+                agradáveis, podendo alterar a fonte, cor, layout e muito mais.</p>
+        </div>
+
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">História</h2>
+            <p class="grid-description">Abaixo segue um breve resumo da criação e desenvolvimento do HTML e CSS</p>
+            <div class="grid">
+                <article>
+                    <h3>HTML</h3>
+                    <p>O HTML foi criado em 1991, por Tim Berners-Lee, no CERN (European Council for Nuclear Research)
+                        na suíça. Inicialmente o HTML foi projetado para interligar instituições de pesquisa próximas, e
+                        compartilhar documentos com facilidade.
+                    <p>
+                </article>
+                <article>
+                    <h3>CSS</h3>
+                    <p>O Cascading Style Sheets (CSS) foi proposto pela primeira vez em Outubro de 1994, por Hakon Lie,
+                        que queria facilitar a programação de sites, que na época era muito mais complexa. Em 1995 o
+                        CSS1 foi desenvolvido pela W3C, um grupo de empresas do ramo da informática.
+                    <p>
+                </article>
+                <article>
+                    <h3>Conclusão</h3>
+                    <p>Devido aos inúmeros benefícios, podemos dizer que a criação do HTML e CSS facilitou muito a vida
+                        dos desenvolvedores WEB.
+                    <p>
+                </article>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Imagens</h2>
+            <p class="grid-description">A combinação de HTML e CSS permite uma melhor utilização e estilização de
+                imagens, como pode ver abaixo:</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Vantagens</h2>
+            <p class="grid-description">Abaixo segue algumas vantagens do HTML e CSS.</p>
+            <div class="grid">
+                <article>
+                    <h3>HTML</h3>
+                    <p>Amplamente utilizado, fácil de aprender e usar e também é leve e rápido de carregar.
+                    <p>
+                </article>
+                <article>
+                    <h3>CSS</h3>
+                    <p>Reduz o código HTML, pode ser aplicado a diferentes documentos e tem maior eficiência no
+                        gerenciamento do Layout.
+                    <p>
+                </article>
+                <article>
+                    <h3>Conclusão</h3>
+                    <p>Aprender HTML e CSS foi o inicio da jornada de muitos desenvolvedores, e para quem
+                        deseja seguir carreira no desenvolvimento Web são os primeiros passos a serem
+                        dados.
+                    <p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Tabelas</h2>
+            <p>As tabelas ou tables são elementos HTML muito utilizados em páginas web para apresentar dados de uma
+                maneira mais clara, facilitando a leitura e entendimento.</p>
+            <p>A tabela a seguir é um exemplo de como usar o table do HTML para criar esses elementos em suas páginas.
+            </p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Exemplo</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Cabeçalho</th>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                            <th>Título 4</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Marca 1</td>
+                            <td>Carro 1</td>
+                            <td>Carro 2</td>
+                            <td>Carro 3</td>
+                            <td>Carro 4</td>
+                        </tr>
+                        <tr>
+                            <td>Marca 2</td>
+                            <td>Carro 1</td>
+                            <td>Carro 2</td>
+                            <td>Carro 3</td>
+                            <td>Carro 4</td>
+                        </tr>
+                        <tr>
+                            <td>Marca 3</td>
+                            <td>Carro 1</td>
+                            <td>Carro 2</td>
+                            <td>Carro 3</td>
+                            <td>Carro 4</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>CONTATO</h2>
+            </div>
+  
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/ferreirasilvadeveloper/">Feito por Lucas
+                Ferreira da Silva</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+
+</body>
+
+</html>
